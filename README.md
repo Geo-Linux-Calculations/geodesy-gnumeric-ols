@@ -13,7 +13,7 @@ Spreadsheets:
 * [dms] - DDMMSS to DD.DDDD transform.
 * [ellipsoid] - the Gauss-Krüger and other transformation.
 * [xyh] - the solution of the problem of determining the station and orienting by measurements or the relative coordinates.
-* distance_to_plane.gnumeric - 
+* distance_to_plane.gnumeric - processing facade geodetic survey.
 * ols-one-sys.gnumeric - finding a plane for a set of points.
 * ols-orientir.gnumeric - direct geodetic intersection (in azimuths).
 * ols-tonnel.gnumeric - tunnel tracking.
