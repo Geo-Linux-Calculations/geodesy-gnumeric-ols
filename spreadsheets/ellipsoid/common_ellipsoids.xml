@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="48" Full="1.12.48"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2022-06-23T04:48:11Z</dc:date>
+      <meta:creation-date>2022-06-23T02:03:22Z</meta:creation-date>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">common_ellipsoids.txt</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="1920" Height="872"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>common_ellipsoids.txt</gnm:Name>
+      <gnm:MaxCol>3</gnm:MaxCol>
+      <gnm:MaxRow>161</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;common_ellipsoids.txt&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="0" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_CENTER" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="0" endRow="160">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="161" endCol="0" endRow="161">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="162" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="0" endCol="2" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_CENTER" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="1" endCol="2" endRow="160">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="161" endCol="2" endRow="161">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="0" endCol="3" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_CENTER" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="1" endCol="3" endRow="160">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="161" endCol="3" endRow="161">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="0" endCol="255" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_CENTER" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="1" endCol="255" endRow="161">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="0.000#####">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="294" HardSize="1"/>
+        <gnm:ColInfo No="1" Unit="102" HardSize="1" Count="3"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="12.75">
+        <gnm:RowInfo No="0" Unit="13.5" Count="147"/>
+      </gnm:Rows>
+      <gnm:Selections CursorCol="0" CursorRow="0">
+        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">Name</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">a-axis[m]</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">b-axis[m]</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">1/f</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">ATS77</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="40">6378135</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="40">6356750.3049999997</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ExprID="1">=B3/(B3-C3)</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">Airy</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="40">6377563.3959999997</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="40">6356256.9092370002</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ExprID="1"/>
+        <gnm:Cell Row="4" Col="0" ValueType="60">Australian_National</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="40">6378160</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="40">6356774.7191949999</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ExprID="1"/>
+        <gnm:Cell Row="6" Col="0" ValueType="60">Bessel-Modified</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="40">6377492.0180000002</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="40">6356173.5089999996</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ExprID="1"/>
+        <gnm:Cell Row="7" Col="0" ValueType="60">Bessell_1841</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="40">6377397.1550000003</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="40">6356078.9628180005</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ExprID="1"/>
+        <gnm:Cell Row="8" Col="0" ValueType="60">Bessel_1841_Nambia</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="40">6377483.8650000002</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="40">6356165.3829659997</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ExprID="1"/>
+        <gnm:Cell Row="10" Col="0" ValueType="60">Clarke_1858</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="40">6378293.6449999996</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="40">6356617.9879999999</gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ExprID="1"/>
+        <gnm:Cell Row="11" Col="0" ValueType="60">Clarke_1866</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="40">6378206.4000000004</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="40">6356583.7999999998</gnm:Cell>
+        <gnm:Cell Row="11" Col="3" ExprID="1"/>
+        <gnm:Cell Row="12" Col="0" ValueType="60">Clarke_1866-Michigan</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="40">6378450.0470000003</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="40">6356826.6200000001</gnm:Cell>
+        <gnm:Cell Row="12" Col="3" ExprID="1"/>
+        <gnm:Cell Row="13" Col="0" ValueType="60">Clarke_1880</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="40">6378249.1449999996</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="40">6356514.8695499999</gnm:Cell>
+        <gnm:Cell Row="13" Col="3" ExprID="1"/>
+        <gnm:Cell Row="14" Col="0" ValueType="60">Clarke_1880-Benoit</gnm:Cell>
+        <gnm:Cell Row="14" Col="1" ValueType="40">6378300.7889999999</gnm:Cell>
+        <gnm:Cell Row="14" Col="2" ValueType="40">6356566.4349999996</gnm:Cell>
+        <gnm:Cell Row="14" Col="3" ExprID="1"/>
+        <gnm:Cell Row="15" Col="0" ValueType="60">Clarke_1880-IGN</gnm:Cell>
+        <gnm:Cell Row="15" Col="1" ValueType="40">6378249.2000000002</gnm:Cell>
+        <gnm:Cell Row="15" Col="2" ValueType="40">6356515</gnm:Cell>
+        <gnm:Cell Row="15" Col="3" ExprID="1"/>
+        <gnm:Cell Row="16" Col="0" ValueType="60">Clarke_1880-Palestine</gnm:Cell>
+        <gnm:Cell Row="16" Col="1" ValueType="40">6378300.7889999999</gnm:Cell>
+        <gnm:Cell Row="16" Col="2" ValueType="40">6356566.4119999995</gnm:Cell>
+        <gnm:Cell Row="16" Col="3" ExprID="1"/>
+        <gnm:Cell Row="17" Col="0" ValueType="60">Clarke_1880-RGS</gnm:Cell>
+        <gnm:Cell Row="17" Col="1" ValueType="40">6378249.1449999996</gnm:Cell>
+        <gnm:Cell Row="17" Col="2" ValueType="40">6356514.8700000001</gnm:Cell>
+        <gnm:Cell Row="17" Col="3" ExprID="1"/>
+        <gnm:Cell Row="19" Col="0" ValueType="60">Danish_1876</gnm:Cell>
+        <gnm:Cell Row="19" Col="1" ValueType="40">6377019.2699999996</gnm:Cell>
+        <gnm:Cell Row="19" Col="2" ValueType="40">6355762.5389999999</gnm:Cell>
+        <gnm:Cell Row="19" Col="3" ExprID="1"/>
+        <gnm:Cell Row="21" Col="0" ValueType="60">Everest</gnm:Cell>
+        <gnm:Cell Row="21" Col="1" ValueType="40">6377276.3449999997</gnm:Cell>
+        <gnm:Cell Row="21" Col="2" ValueType="40">6356075.4131399998</gnm:Cell>
+        <gnm:Cell Row="21" Col="3" ExprID="1"/>
+        <gnm:Cell Row="22" Col="0" ValueType="60">Everest_1830</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="40">6377276.3449999997</gnm:Cell>
+        <gnm:Cell Row="22" Col="2" ValueType="40">6356075.4129999997</gnm:Cell>
+        <gnm:Cell Row="22" Col="3" ExprID="1"/>
+        <gnm:Cell Row="23" Col="0" ValueType="60">Everest_1830-1937_Adjustment</gnm:Cell>
+        <gnm:Cell Row="23" Col="1" ValueType="40">6377276.3449999997</gnm:Cell>
+        <gnm:Cell Row="23" Col="2" ValueType="40">6356075.4129999997</gnm:Cell>
+        <gnm:Cell Row="23" Col="3" ExprID="1"/>
+        <gnm:Cell Row="24" Col="0" ValueType="60">Everest_1830-1967_Definition</gnm:Cell>
+        <gnm:Cell Row="24" Col="1" ValueType="40">6377298.5559999999</gnm:Cell>
+        <gnm:Cell Row="24" Col="2" ValueType="40">6356097.5499999998</gnm:Cell>
+        <gnm:Cell Row="24" Col="3" ExprID="1"/>
+        <gnm:Cell Row="25" Col="0" ValueType="60">Everest_1830-1975_Adjustment</gnm:Cell>
+        <gnm:Cell Row="25" Col="1" ValueType="40">6377299.1509999996</gnm:Cell>
+        <gnm:Cell Row="25" Col="2" ValueType="40">6356098.1449999996</gnm:Cell>
+        <gnm:Cell Row="25" Col="3" ExprID="1"/>
+        <gnm:Cell Row="26" Col="0" ValueType="60">Everest_1956</gnm:Cell>
+        <gnm:Cell Row="26" Col="1" ValueType="40">6377301.2429999998</gnm:Cell>
+        <gnm:Cell Row="26" Col="2" ValueType="40">6356100.2280000001</gnm:Cell>
+        <gnm:Cell Row="26" Col="3" ExprID="1"/>
+        <gnm:Cell Row="28" Col="0" ValueType="60">Fischer_1960_Mercury</gnm:Cell>
+        <gnm:Cell Row="28" Col="1" ValueType="40">6378166</gnm:Cell>
+        <gnm:Cell Row="28" Col="2" ValueType="40">6356784.2836069996</gnm:Cell>
+        <gnm:Cell Row="28" Col="3" ExprID="1"/>
+        <gnm:Cell Row="29" Col="0" ValueType="60">Fischer_1968</gnm:Cell>
+        <gnm:Cell Row="29" Col="1" ValueType="40">6378150</gnm:Cell>
+        <gnm:Cell Row="29" Col="2" ValueType="40">6356768.3372440003</gnm:Cell>
+        <gnm:Cell Row="29" Col="3" ExprID="1"/>
+        <gnm:Cell Row="31" Col="0" ValueType="60">GRS_1967-Indonesia_1974</gnm:Cell>
+        <gnm:Cell Row="31" Col="1" ValueType="40">6378160</gnm:Cell>
+        <gnm:Cell Row="31" Col="2" ValueType="40">6356774.5159999998</gnm:Cell>
+        <gnm:Cell Row="31" Col="3" ExprID="1"/>
+        <gnm:Cell Row="32" Col="0" ValueType="60">GRS_1967</gnm:Cell>
+        <gnm:Cell Row="32" Col="1" ValueType="40">6378160</gnm:Cell>
+        <gnm:Cell Row="32" Col="2" ValueType="40">6356774.5160910003</gnm:Cell>
+        <gnm:Cell Row="32" Col="3" ExprID="1"/>
+        <gnm:Cell Row="33" Col="0" ValueType="60">GRS_1967_Modified</gnm:Cell>
+        <gnm:Cell Row="33" Col="1" ValueType="40">6378160</gnm:Cell>
+        <gnm:Cell Row="33" Col="2" ValueType="40">6356774.7189999996</gnm:Cell>
+        <gnm:Cell Row="33" Col="3" ExprID="1"/>
+        <gnm:Cell Row="34" Col="0" ValueType="60">GRS_1980</gnm:Cell>
+        <gnm:Cell Row="34" Col="1" ValueType="40">6378137</gnm:Cell>
+        <gnm:Cell Row="34" Col="2" ValueType="40">6356752.3141400004</gnm:Cell>
+        <gnm:Cell Row="34" Col="3" ExprID="1"/>
+        <gnm:Cell Row="36" Col="0" ValueType="60">Helmert_1906</gnm:Cell>
+        <gnm:Cell Row="36" Col="1" ValueType="40">6378200</gnm:Cell>
+        <gnm:Cell Row="36" Col="2" ValueType="40">6356818.1696279999</gnm:Cell>
+        <gnm:Cell Row="36" Col="3" ExprID="1"/>
+        <gnm:Cell Row="37" Col="0" ValueType="60">Hough</gnm:Cell>
+        <gnm:Cell Row="37" Col="1" ValueType="40">6378270</gnm:Cell>
+        <gnm:Cell Row="37" Col="2" ValueType="40">6356794.3434340004</gnm:Cell>
+        <gnm:Cell Row="37" Col="3" ExprID="1"/>
+        <gnm:Cell Row="39" Col="0" ValueType="60">International</gnm:Cell>
+        <gnm:Cell Row="39" Col="1" ValueType="40">6378388</gnm:Cell>
+        <gnm:Cell Row="39" Col="2" ValueType="40">6356911.9461279996</gnm:Cell>
+        <gnm:Cell Row="39" Col="3" ExprID="1"/>
+        <gnm:Cell Row="40" Col="0" ValueType="60">International_1909-Hayford-Intl_1924</gnm:Cell>
+        <gnm:Cell Row="40" Col="1" ValueType="40">6378388</gnm:Cell>
+        <gnm:Cell Row="40" Col="2" ValueType="40">6356911.9460000005</gnm:Cell>
+        <gnm:Cell Row="40" Col="3" ExprID="1"/>
+        <gnm:Cell Row="41" Col="0" ValueType="60">International_1967</gnm:Cell>
+        <gnm:Cell Row="41" Col="1" ValueType="40">6378157.5</gnm:Cell>
+        <gnm:Cell Row="41" Col="2" ValueType="40">6356772.2000000002</gnm:Cell>
+        <gnm:Cell Row="41" Col="3" ExprID="1"/>
+        <gnm:Cell Row="43" Col="0" ValueType="60">Krassovsky</gnm:Cell>
+        <gnm:Cell Row="43" Col="1" ValueType="40">6378245</gnm:Cell>
+        <gnm:Cell Row="43" Col="2" ValueType="40">6356863.0187729998</gnm:Cell>
+        <gnm:Cell Row="43" Col="3" ExprID="1"/>
+        <gnm:Cell Row="45" Col="0" ValueType="60">MN_County-Anoka</gnm:Cell>
+        <gnm:Cell Row="45" Col="1" ValueType="40">6378418.9409999996</gnm:Cell>
+        <gnm:Cell Row="45" Col="2" ValueType="40">6357033.3099999996</gnm:Cell>
+        <gnm:Cell Row="45" Col="3" ExprID="1"/>
+        <gnm:Cell Row="46" Col="0" ValueType="60">MN_County-Becker</gnm:Cell>
+        <gnm:Cell Row="46" Col="1" ValueType="40">6378586.5810000002</gnm:Cell>
+        <gnm:Cell Row="46" Col="2" ValueType="40">6357200.3880000003</gnm:Cell>
+        <gnm:Cell Row="46" Col="3" ExprID="1"/>
+        <gnm:Cell Row="47" Col="0" ValueType="60">MN_County-Beltrami_North</gnm:Cell>
+        <gnm:Cell Row="47" Col="1" ValueType="40">6378505.8090000004</gnm:Cell>
+        <gnm:Cell Row="47" Col="2" ValueType="40">6357119.8859999999</gnm:Cell>
+        <gnm:Cell Row="47" Col="3" ExprID="1"/>
+        <gnm:Cell Row="48" Col="0" ValueType="60">MN_County-Beltrami_South</gnm:Cell>
+        <gnm:Cell Row="48" Col="1" ValueType="40">6378544.8229999999</gnm:Cell>
+        <gnm:Cell Row="48" Col="2" ValueType="40">6357158.7699999996</gnm:Cell>
+        <gnm:Cell Row="48" Col="3" ExprID="1"/>
+        <gnm:Cell Row="49" Col="0" ValueType="60">MN_County-Benton</gnm:Cell>
+        <gnm:Cell Row="49" Col="1" ValueType="40">6378490.5690000001</gnm:Cell>
+        <gnm:Cell Row="49" Col="2" ValueType="40">6357104.6979999999</gnm:Cell>
+        <gnm:Cell Row="49" Col="3" ExprID="1"/>
+        <gnm:Cell Row="50" Col="0" ValueType="60">MN_County-Big_Stone</gnm:Cell>
+        <gnm:Cell Row="50" Col="1" ValueType="40">6378470.7570000002</gnm:Cell>
+        <gnm:Cell Row="50" Col="2" ValueType="40">6357084.9519999996</gnm:Cell>
+        <gnm:Cell Row="50" Col="3" ExprID="1"/>
+        <gnm:Cell Row="51" Col="0" ValueType="60">MN_County-Blue_Earth</gnm:Cell>
+        <gnm:Cell Row="51" Col="1" ValueType="40">6378403.7010000004</gnm:Cell>
+        <gnm:Cell Row="51" Col="2" ValueType="40">6357018.1210000003</gnm:Cell>
+        <gnm:Cell Row="51" Col="3" ExprID="1"/>
+        <gnm:Cell Row="52" Col="0" ValueType="60">MN_County-Brown</gnm:Cell>
+        <gnm:Cell Row="52" Col="1" ValueType="40">6378434.1809999999</gnm:Cell>
+        <gnm:Cell Row="52" Col="2" ValueType="40">6357048.4989999998</gnm:Cell>
+        <gnm:Cell Row="52" Col="3" ExprID="1"/>
+        <gnm:Cell Row="53" Col="0" ValueType="60">MN_County-Carlton</gnm:Cell>
+        <gnm:Cell Row="53" Col="1" ValueType="40">6378454.9069999997</gnm:Cell>
+        <gnm:Cell Row="53" Col="2" ValueType="40">6357069.1550000003</gnm:Cell>
+        <gnm:Cell Row="53" Col="3" ExprID="1"/>
+        <gnm:Cell Row="54" Col="0" ValueType="60">MN_County-Carver</gnm:Cell>
+        <gnm:Cell Row="54" Col="1" ValueType="40">6378400.6529999999</gnm:Cell>
+        <gnm:Cell Row="54" Col="2" ValueType="40">6357015.0829999996</gnm:Cell>
+        <gnm:Cell Row="54" Col="3" ExprID="1"/>
+        <gnm:Cell Row="55" Col="0" ValueType="60">MN_County-Cass_North</gnm:Cell>
+        <gnm:Cell Row="55" Col="1" ValueType="40">6378567.3779999996</gnm:Cell>
+        <gnm:Cell Row="55" Col="2" ValueType="40">6357181.2489999998</gnm:Cell>
+        <gnm:Cell Row="55" Col="3" ExprID="1"/>
+        <gnm:Cell Row="56" Col="0" ValueType="60">MN_County-Cass_South</gnm:Cell>
+        <gnm:Cell Row="56" Col="1" ValueType="40">6378546.9570000004</gnm:Cell>
+        <gnm:Cell Row="56" Col="2" ValueType="40">6357160.8959999997</gnm:Cell>
+        <gnm:Cell Row="56" Col="3" ExprID="1"/>
+        <gnm:Cell Row="57" Col="0" ValueType="60">MN_County-Chippewa</gnm:Cell>
+        <gnm:Cell Row="57" Col="1" ValueType="40">6378476.8530000001</gnm:Cell>
+        <gnm:Cell Row="57" Col="2" ValueType="40">6357091.0279999999</gnm:Cell>
+        <gnm:Cell Row="57" Col="3" ExprID="1"/>
+        <gnm:Cell Row="58" Col="0" ValueType="60">MN_County-Chisago</gnm:Cell>
+        <gnm:Cell Row="58" Col="1" ValueType="40">6378411.3210000005</gnm:Cell>
+        <gnm:Cell Row="58" Col="2" ValueType="40">6357025.7149999999</gnm:Cell>
+        <gnm:Cell Row="58" Col="3" ExprID="1"/>
+        <gnm:Cell Row="59" Col="0" ValueType="60">MN_County-Cook_North</gnm:Cell>
+        <gnm:Cell Row="59" Col="1" ValueType="40">6378647.5410000002</gnm:Cell>
+        <gnm:Cell Row="59" Col="2" ValueType="40">6357261.1430000002</gnm:Cell>
+        <gnm:Cell Row="59" Col="3" ExprID="1"/>
+        <gnm:Cell Row="60" Col="0" ValueType="60">MN_County-Cook_South</gnm:Cell>
+        <gnm:Cell Row="60" Col="1" ValueType="40">6378647.5410000002</gnm:Cell>
+        <gnm:Cell Row="60" Col="2" ValueType="40">6357261.1430000002</gnm:Cell>
+        <gnm:Cell Row="60" Col="3" ExprID="1"/>
+        <gnm:Cell Row="61" Col="0" ValueType="60">MN_County-Cottonwood</gnm:Cell>
+        <gnm:Cell Row="61" Col="1" ValueType="40">6378514.9529999997</gnm:Cell>
+        <gnm:Cell Row="61" Col="2" ValueType="40">6357129</gnm:Cell>
+        <gnm:Cell Row="61" Col="3" ExprID="1"/>
+        <gnm:Cell Row="62" Col="0" ValueType="60">MN_County-Crow_Wing</gnm:Cell>
+        <gnm:Cell Row="62" Col="1" ValueType="40">6378546.9570000004</gnm:Cell>
+        <gnm:Cell Row="62" Col="2" ValueType="40">6357160.8959999997</gnm:Cell>
+        <gnm:Cell Row="62" Col="3" ExprID="1"/>
+        <gnm:Cell Row="63" Col="0" ValueType="60">MN_County-Dakota</gnm:Cell>
+        <gnm:Cell Row="63" Col="1" ValueType="40">6378421.9890000001</gnm:Cell>
+        <gnm:Cell Row="63" Col="2" ValueType="40">6357036.3470000001</gnm:Cell>
+        <gnm:Cell Row="63" Col="3" ExprID="1"/>
+        <gnm:Cell Row="64" Col="0" ValueType="60">MN_County-Dodge</gnm:Cell>
+        <gnm:Cell Row="64" Col="1" ValueType="40">6378481.4249999998</gnm:Cell>
+        <gnm:Cell Row="64" Col="2" ValueType="40">6357095.5839999998</gnm:Cell>
+        <gnm:Cell Row="64" Col="3" ExprID="1"/>
+        <gnm:Cell Row="65" Col="0" ValueType="60">MN_County-Douglas</gnm:Cell>
+        <gnm:Cell Row="65" Col="1" ValueType="40">6378518.0010000002</gnm:Cell>
+        <gnm:Cell Row="65" Col="2" ValueType="40">6357132.0379999997</gnm:Cell>
+        <gnm:Cell Row="65" Col="3" ExprID="1"/>
+        <gnm:Cell Row="66" Col="0" ValueType="60">MN_County-Faribault</gnm:Cell>
+        <gnm:Cell Row="66" Col="1" ValueType="40">6378521.0489999996</gnm:Cell>
+        <gnm:Cell Row="66" Col="2" ValueType="40">6357135.0750000002</gnm:Cell>
+        <gnm:Cell Row="66" Col="3" ExprID="1"/>
+        <gnm:Cell Row="67" Col="0" ValueType="60">MN_County-Fillmore</gnm:Cell>
+        <gnm:Cell Row="67" Col="1" ValueType="40">6378464.6610000003</gnm:Cell>
+        <gnm:Cell Row="67" Col="2" ValueType="40">6357078.8760000002</gnm:Cell>
+        <gnm:Cell Row="67" Col="3" ExprID="1"/>
+        <gnm:Cell Row="68" Col="0" ValueType="60">MN_County-Freeborn</gnm:Cell>
+        <gnm:Cell Row="68" Col="1" ValueType="40">6378521.0489999996</gnm:Cell>
+        <gnm:Cell Row="68" Col="2" ValueType="40">6357135.0750000002</gnm:Cell>
+        <gnm:Cell Row="68" Col="3" ExprID="1"/>
+        <gnm:Cell Row="69" Col="0" ValueType="60">MN_County-Goodhue</gnm:Cell>
+        <gnm:Cell Row="69" Col="1" ValueType="40">6378434.1809999999</gnm:Cell>
+        <gnm:Cell Row="69" Col="2" ValueType="40">6357048.4989999998</gnm:Cell>
+        <gnm:Cell Row="69" Col="3" ExprID="1"/>
+        <gnm:Cell Row="70" Col="0" ValueType="60">MN_County-Grant</gnm:Cell>
+        <gnm:Cell Row="70" Col="1" ValueType="40">6378518.0010000002</gnm:Cell>
+        <gnm:Cell Row="70" Col="2" ValueType="40">6357132.0379999997</gnm:Cell>
+        <gnm:Cell Row="70" Col="3" ExprID="1"/>
+        <gnm:Cell Row="71" Col="0" ValueType="60">MN_County-Hennepin</gnm:Cell>
+        <gnm:Cell Row="71" Col="1" ValueType="40">6378418.9409999996</gnm:Cell>
+        <gnm:Cell Row="71" Col="2" ValueType="40">6357033.3099999996</gnm:Cell>
+        <gnm:Cell Row="71" Col="3" ExprID="1"/>
+        <gnm:Cell Row="72" Col="0" ValueType="60">MN_County-Houston</gnm:Cell>
+        <gnm:Cell Row="72" Col="1" ValueType="40">6378436.6189999999</gnm:Cell>
+        <gnm:Cell Row="72" Col="2" ValueType="40">6357050.9280000003</gnm:Cell>
+        <gnm:Cell Row="72" Col="3" ExprID="1"/>
+        <gnm:Cell Row="73" Col="0" ValueType="60">MN_County-Isanti</gnm:Cell>
+        <gnm:Cell Row="73" Col="1" ValueType="40">6378411.3210000005</gnm:Cell>
+        <gnm:Cell Row="73" Col="2" ValueType="40">6357025.7149999999</gnm:Cell>
+        <gnm:Cell Row="73" Col="3" ExprID="1"/>
+        <gnm:Cell Row="74" Col="0" ValueType="60">MN_County-Itasca_North</gnm:Cell>
+        <gnm:Cell Row="74" Col="1" ValueType="40">6378574.3890000004</gnm:Cell>
+        <gnm:Cell Row="74" Col="2" ValueType="40">6357188.2369999997</gnm:Cell>
+        <gnm:Cell Row="74" Col="3" ExprID="1"/>
+        <gnm:Cell Row="75" Col="0" ValueType="60">MN_County-Itasca_South</gnm:Cell>
+        <gnm:Cell Row="75" Col="1" ValueType="40">6378574.3890000004</gnm:Cell>
+        <gnm:Cell Row="75" Col="2" ValueType="40">6357188.2369999997</gnm:Cell>
+        <gnm:Cell Row="75" Col="3" ExprID="1"/>
+        <gnm:Cell Row="76" Col="0" ValueType="60">MN_County-Jackson</gnm:Cell>
+        <gnm:Cell Row="76" Col="1" ValueType="40">6378521.0489999996</gnm:Cell>
+        <gnm:Cell Row="76" Col="2" ValueType="40">6357135.0750000002</gnm:Cell>
+        <gnm:Cell Row="76" Col="3" ExprID="1"/>
+        <gnm:Cell Row="77" Col="0" ValueType="60">MN_County-Kanabec</gnm:Cell>
+        <gnm:Cell Row="77" Col="1" ValueType="40">6378472.2810000004</gnm:Cell>
+        <gnm:Cell Row="77" Col="2" ValueType="40">6357086.4709999999</gnm:Cell>
+        <gnm:Cell Row="77" Col="3" ExprID="1"/>
+        <gnm:Cell Row="78" Col="0" ValueType="60">MN_County-Kandiyohi</gnm:Cell>
+        <gnm:Cell Row="78" Col="1" ValueType="40">6378498.1890000002</gnm:Cell>
+        <gnm:Cell Row="78" Col="2" ValueType="40">6357112.2920000004</gnm:Cell>
+        <gnm:Cell Row="78" Col="3" ExprID="1"/>
+        <gnm:Cell Row="79" Col="0" ValueType="60">MN_County-Kittson</gnm:Cell>
+        <gnm:Cell Row="79" Col="1" ValueType="40">6378449.4210000001</gnm:Cell>
+        <gnm:Cell Row="79" Col="2" ValueType="40">6357063.6880000001</gnm:Cell>
+        <gnm:Cell Row="79" Col="3" ExprID="1"/>
+        <gnm:Cell Row="80" Col="0" ValueType="60">MN_County-Koochiching</gnm:Cell>
+        <gnm:Cell Row="80" Col="1" ValueType="40">6378525.6210000003</gnm:Cell>
+        <gnm:Cell Row="80" Col="2" ValueType="40">6357139.6320000002</gnm:Cell>
+        <gnm:Cell Row="80" Col="3" ExprID="1"/>
+        <gnm:Cell Row="81" Col="0" ValueType="60">MN_County-Lac_Qui_Parle</gnm:Cell>
+        <gnm:Cell Row="81" Col="1" ValueType="40">6378476.8530000001</gnm:Cell>
+        <gnm:Cell Row="81" Col="2" ValueType="40">6357091.0279999999</gnm:Cell>
+        <gnm:Cell Row="81" Col="3" ExprID="1"/>
+        <gnm:Cell Row="82" Col="0" ValueType="60">MN_County-Lake_of_the_Woods_North</gnm:Cell>
+        <gnm:Cell Row="82" Col="1" ValueType="40">6378466.1849999996</gnm:Cell>
+        <gnm:Cell Row="82" Col="2" ValueType="40">6357080.3949999996</gnm:Cell>
+        <gnm:Cell Row="82" Col="3" ExprID="1"/>
+        <gnm:Cell Row="83" Col="0" ValueType="60">MN_County-Lake_of_the_Woods_South</gnm:Cell>
+        <gnm:Cell Row="83" Col="1" ValueType="40">6378496.665</gnm:Cell>
+        <gnm:Cell Row="83" Col="2" ValueType="40">6357110.773</gnm:Cell>
+        <gnm:Cell Row="83" Col="3" ExprID="1"/>
+        <gnm:Cell Row="84" Col="0" ValueType="60">MN_County-Le_Sueur</gnm:Cell>
+        <gnm:Cell Row="84" Col="1" ValueType="40">6378434.1809999999</gnm:Cell>
+        <gnm:Cell Row="84" Col="2" ValueType="40">6357048.4989999998</gnm:Cell>
+        <gnm:Cell Row="84" Col="3" ExprID="1"/>
+        <gnm:Cell Row="85" Col="0" ValueType="60">MN_County-Lincoln</gnm:Cell>
+        <gnm:Cell Row="85" Col="1" ValueType="40">6378643.5789999999</gnm:Cell>
+        <gnm:Cell Row="85" Col="2" ValueType="40">6357257.1950000003</gnm:Cell>
+        <gnm:Cell Row="85" Col="3" ExprID="1"/>
+        <gnm:Cell Row="86" Col="0" ValueType="60">MN_County-Lyon</gnm:Cell>
+        <gnm:Cell Row="86" Col="1" ValueType="40">6378559.7580000004</gnm:Cell>
+        <gnm:Cell Row="86" Col="2" ValueType="40">6357173.6550000003</gnm:Cell>
+        <gnm:Cell Row="86" Col="3" ExprID="1"/>
+        <gnm:Cell Row="87" Col="0" ValueType="60">MN_County-Mahnomen</gnm:Cell>
+        <gnm:Cell Row="87" Col="1" ValueType="40">6378586.5810000002</gnm:Cell>
+        <gnm:Cell Row="87" Col="2" ValueType="40">6357200.3880000003</gnm:Cell>
+        <gnm:Cell Row="87" Col="3" ExprID="1"/>
+        <gnm:Cell Row="88" Col="0" ValueType="60">MN_County-Marshall</gnm:Cell>
+        <gnm:Cell Row="88" Col="1" ValueType="40">6378441.801</gnm:Cell>
+        <gnm:Cell Row="88" Col="2" ValueType="40">6357056.0930000003</gnm:Cell>
+        <gnm:Cell Row="88" Col="3" ExprID="1"/>
+        <gnm:Cell Row="89" Col="0" ValueType="60">MN_County-Martin</gnm:Cell>
+        <gnm:Cell Row="89" Col="1" ValueType="40">6378521.0489999996</gnm:Cell>
+        <gnm:Cell Row="89" Col="2" ValueType="40">6357135.0750000002</gnm:Cell>
+        <gnm:Cell Row="89" Col="3" ExprID="1"/>
+        <gnm:Cell Row="90" Col="0" ValueType="60">MN_County-McLeod</gnm:Cell>
+        <gnm:Cell Row="90" Col="1" ValueType="40">6378414.3689999999</gnm:Cell>
+        <gnm:Cell Row="90" Col="2" ValueType="40">6357028.7529999996</gnm:Cell>
+        <gnm:Cell Row="90" Col="3" ExprID="1"/>
+        <gnm:Cell Row="91" Col="0" ValueType="60">MN_County-Meeker</gnm:Cell>
+        <gnm:Cell Row="91" Col="1" ValueType="40">6378498.1890000002</gnm:Cell>
+        <gnm:Cell Row="91" Col="2" ValueType="40">6357112.2920000004</gnm:Cell>
+        <gnm:Cell Row="91" Col="3" ExprID="1"/>
+        <gnm:Cell Row="92" Col="0" ValueType="60">MN_County-Morrison</gnm:Cell>
+        <gnm:Cell Row="92" Col="1" ValueType="40">6378502.7609999999</gnm:Cell>
+        <gnm:Cell Row="92" Col="2" ValueType="40">6357116.8490000004</gnm:Cell>
+        <gnm:Cell Row="92" Col="3" ExprID="1"/>
+        <gnm:Cell Row="93" Col="0" ValueType="60">MN_County-Mower</gnm:Cell>
+        <gnm:Cell Row="93" Col="1" ValueType="40">6378521.0489999996</gnm:Cell>
+        <gnm:Cell Row="93" Col="2" ValueType="40">6357135.0750000002</gnm:Cell>
+        <gnm:Cell Row="93" Col="3" ExprID="1"/>
+        <gnm:Cell Row="94" Col="0" ValueType="60">MN_County-Murray</gnm:Cell>
+        <gnm:Cell Row="94" Col="1" ValueType="40">6378617.0609999998</gnm:Cell>
+        <gnm:Cell Row="94" Col="2" ValueType="40">6357230.7649999997</gnm:Cell>
+        <gnm:Cell Row="94" Col="3" ExprID="1"/>
+        <gnm:Cell Row="95" Col="0" ValueType="60">MN_County-Nicollet</gnm:Cell>
+        <gnm:Cell Row="95" Col="1" ValueType="40">6378403.7010000004</gnm:Cell>
+        <gnm:Cell Row="95" Col="2" ValueType="40">6357018.1210000003</gnm:Cell>
+        <gnm:Cell Row="95" Col="3" ExprID="1"/>
+        <gnm:Cell Row="96" Col="0" ValueType="60">MN_County-Nobles</gnm:Cell>
+        <gnm:Cell Row="96" Col="1" ValueType="40">6378624.6809999999</gnm:Cell>
+        <gnm:Cell Row="96" Col="2" ValueType="40">6357238.3600000003</gnm:Cell>
+        <gnm:Cell Row="96" Col="3" ExprID="1"/>
+        <gnm:Cell Row="97" Col="0" ValueType="60">MN_County-Norman</gnm:Cell>
+        <gnm:Cell Row="97" Col="1" ValueType="40">6378468.6229999997</gnm:Cell>
+        <gnm:Cell Row="97" Col="2" ValueType="40">6357082.8250000002</gnm:Cell>
+        <gnm:Cell Row="97" Col="3" ExprID="1"/>
+        <gnm:Cell Row="98" Col="0" ValueType="60">MN_County-Olmsted</gnm:Cell>
+        <gnm:Cell Row="98" Col="1" ValueType="40">6378481.4249999998</gnm:Cell>
+        <gnm:Cell Row="98" Col="2" ValueType="40">6357095.5839999998</gnm:Cell>
+        <gnm:Cell Row="98" Col="3" ExprID="1"/>
+        <gnm:Cell Row="99" Col="0" ValueType="60">MN_County-Ottertail</gnm:Cell>
+        <gnm:Cell Row="99" Col="1" ValueType="40">6378525.6210000003</gnm:Cell>
+        <gnm:Cell Row="99" Col="2" ValueType="40">6357139.6320000002</gnm:Cell>
+        <gnm:Cell Row="99" Col="3" ExprID="1"/>
+        <gnm:Cell Row="100" Col="0" ValueType="60">MN_County-Pennington</gnm:Cell>
+        <gnm:Cell Row="100" Col="1" ValueType="40">6378445.7630000003</gnm:Cell>
+        <gnm:Cell Row="100" Col="2" ValueType="40">6357060.0420000004</gnm:Cell>
+        <gnm:Cell Row="100" Col="3" ExprID="1"/>
+        <gnm:Cell Row="101" Col="0" ValueType="60">MN_County-Pine</gnm:Cell>
+        <gnm:Cell Row="101" Col="1" ValueType="40">6378472.2810000004</gnm:Cell>
+        <gnm:Cell Row="101" Col="2" ValueType="40">6357086.4709999999</gnm:Cell>
+        <gnm:Cell Row="101" Col="3" ExprID="1"/>
+        <gnm:Cell Row="102" Col="0" ValueType="60">MN_County-Pipestone</gnm:Cell>
+        <gnm:Cell Row="102" Col="1" ValueType="40">6378670.4009999996</gnm:Cell>
+        <gnm:Cell Row="102" Col="2" ValueType="40">6357283.9270000001</gnm:Cell>
+        <gnm:Cell Row="102" Col="3" ExprID="1"/>
+        <gnm:Cell Row="103" Col="0" ValueType="60">MN_County-Polk</gnm:Cell>
+        <gnm:Cell Row="103" Col="1" ValueType="40">6378445.7630000003</gnm:Cell>
+        <gnm:Cell Row="103" Col="2" ValueType="40">6357060.0420000004</gnm:Cell>
+        <gnm:Cell Row="103" Col="3" ExprID="1"/>
+        <gnm:Cell Row="104" Col="0" ValueType="60">MN_County-Pope</gnm:Cell>
+        <gnm:Cell Row="104" Col="1" ValueType="40">6378502.7609999999</gnm:Cell>
+        <gnm:Cell Row="104" Col="2" ValueType="40">6357116.8490000004</gnm:Cell>
+        <gnm:Cell Row="104" Col="3" ExprID="1"/>
+        <gnm:Cell Row="105" Col="0" ValueType="60">MN_County-Ramsey</gnm:Cell>
+        <gnm:Cell Row="105" Col="1" ValueType="40">6378418.9409999996</gnm:Cell>
+        <gnm:Cell Row="105" Col="2" ValueType="40">6357033.3099999996</gnm:Cell>
+        <gnm:Cell Row="105" Col="3" ExprID="1"/>
+        <gnm:Cell Row="106" Col="0" ValueType="60">MN_County-Red_Lake</gnm:Cell>
+        <gnm:Cell Row="106" Col="1" ValueType="40">6378445.7630000003</gnm:Cell>
+        <gnm:Cell Row="106" Col="2" ValueType="40">6357060.0420000004</gnm:Cell>
+        <gnm:Cell Row="106" Col="3" ExprID="1"/>
+        <gnm:Cell Row="107" Col="0" ValueType="60">MN_County-Redwood</gnm:Cell>
+        <gnm:Cell Row="107" Col="1" ValueType="40">6378438.7529999996</gnm:Cell>
+        <gnm:Cell Row="107" Col="2" ValueType="40">6357053.0549999997</gnm:Cell>
+        <gnm:Cell Row="107" Col="3" ExprID="1"/>
+        <gnm:Cell Row="108" Col="0" ValueType="60">MN_County-Renville</gnm:Cell>
+        <gnm:Cell Row="108" Col="1" ValueType="40">6378414.3689999999</gnm:Cell>
+        <gnm:Cell Row="108" Col="2" ValueType="40">6357028.7529999996</gnm:Cell>
+        <gnm:Cell Row="108" Col="3" ExprID="1"/>
+        <gnm:Cell Row="109" Col="0" ValueType="60">MN_County-Rice</gnm:Cell>
+        <gnm:Cell Row="109" Col="1" ValueType="40">6378434.1809999999</gnm:Cell>
+        <gnm:Cell Row="109" Col="2" ValueType="40">6357048.4989999998</gnm:Cell>
+        <gnm:Cell Row="109" Col="3" ExprID="1"/>
+        <gnm:Cell Row="110" Col="0" ValueType="60">MN_County-Rock</gnm:Cell>
+        <gnm:Cell Row="110" Col="1" ValueType="40">6378624.6809999999</gnm:Cell>
+        <gnm:Cell Row="110" Col="2" ValueType="40">6357238.3600000003</gnm:Cell>
+        <gnm:Cell Row="110" Col="3" ExprID="1"/>
+        <gnm:Cell Row="111" Col="0" ValueType="60">MN_County-Roseau</gnm:Cell>
+        <gnm:Cell Row="111" Col="1" ValueType="40">6378449.4210000001</gnm:Cell>
+        <gnm:Cell Row="111" Col="2" ValueType="40">6357063.6880000001</gnm:Cell>
+        <gnm:Cell Row="111" Col="3" ExprID="1"/>
+        <gnm:Cell Row="112" Col="0" ValueType="60">MN_County-Scott</gnm:Cell>
+        <gnm:Cell Row="112" Col="1" ValueType="40">6378421.9890000001</gnm:Cell>
+        <gnm:Cell Row="112" Col="2" ValueType="40">6357036.3470000001</gnm:Cell>
+        <gnm:Cell Row="112" Col="3" ExprID="1"/>
+        <gnm:Cell Row="113" Col="0" ValueType="60">MN_County-Sherburne</gnm:Cell>
+        <gnm:Cell Row="113" Col="1" ValueType="40">6378443.3250000002</gnm:Cell>
+        <gnm:Cell Row="113" Col="2" ValueType="40">6357057.6119999997</gnm:Cell>
+        <gnm:Cell Row="113" Col="3" ExprID="1"/>
+        <gnm:Cell Row="114" Col="0" ValueType="60">MN_County-Sibley</gnm:Cell>
+        <gnm:Cell Row="114" Col="1" ValueType="40">6378414.3689999999</gnm:Cell>
+        <gnm:Cell Row="114" Col="2" ValueType="40">6357028.7529999996</gnm:Cell>
+        <gnm:Cell Row="114" Col="3" ExprID="1"/>
+        <gnm:Cell Row="115" Col="0" ValueType="60">MN_County-St_Louis_Central</gnm:Cell>
+        <gnm:Cell Row="115" Col="1" ValueType="40">6378605.7829999998</gnm:Cell>
+        <gnm:Cell Row="115" Col="2" ValueType="40">6357219.5250000004</gnm:Cell>
+        <gnm:Cell Row="115" Col="3" ExprID="1"/>
+        <gnm:Cell Row="116" Col="0" ValueType="60">MN_County-St_Louis_North</gnm:Cell>
+        <gnm:Cell Row="116" Col="1" ValueType="40">6378543.909</gnm:Cell>
+        <gnm:Cell Row="116" Col="2" ValueType="40">6357157.8590000002</gnm:Cell>
+        <gnm:Cell Row="116" Col="3" ExprID="1"/>
+        <gnm:Cell Row="117" Col="0" ValueType="60">MN_County-St_Louis_South</gnm:Cell>
+        <gnm:Cell Row="117" Col="1" ValueType="40">6378540.8609999996</gnm:Cell>
+        <gnm:Cell Row="117" Col="2" ValueType="40">6357154.8210000005</gnm:Cell>
+        <gnm:Cell Row="117" Col="3" ExprID="1"/>
+        <gnm:Cell Row="118" Col="0" ValueType="60">MN_County-Stearns</gnm:Cell>
+        <gnm:Cell Row="118" Col="1" ValueType="40">6378502.7609999999</gnm:Cell>
+        <gnm:Cell Row="118" Col="2" ValueType="40">6357116.8490000004</gnm:Cell>
+        <gnm:Cell Row="118" Col="3" ExprID="1"/>
+        <gnm:Cell Row="119" Col="0" ValueType="60">MN_County-Steele</gnm:Cell>
+        <gnm:Cell Row="119" Col="1" ValueType="40">6378481.4249999998</gnm:Cell>
+        <gnm:Cell Row="119" Col="2" ValueType="40">6357095.5839999998</gnm:Cell>
+        <gnm:Cell Row="119" Col="3" ExprID="1"/>
+        <gnm:Cell Row="120" Col="0" ValueType="60">MN_County-Stevens</gnm:Cell>
+        <gnm:Cell Row="120" Col="1" ValueType="40">6378502.7609999999</gnm:Cell>
+        <gnm:Cell Row="120" Col="2" ValueType="40">6357116.8490000004</gnm:Cell>
+        <gnm:Cell Row="120" Col="3" ExprID="1"/>
+        <gnm:Cell Row="121" Col="0" ValueType="60">MN_County-Swift</gnm:Cell>
+        <gnm:Cell Row="121" Col="1" ValueType="40">6378470.7570000002</gnm:Cell>
+        <gnm:Cell Row="121" Col="2" ValueType="40">6357084.9519999996</gnm:Cell>
+        <gnm:Cell Row="121" Col="3" ExprID="1"/>
+        <gnm:Cell Row="122" Col="0" ValueType="60">MN_County-Todd</gnm:Cell>
+        <gnm:Cell Row="122" Col="1" ValueType="40">6378548.4809999997</gnm:Cell>
+        <gnm:Cell Row="122" Col="2" ValueType="40">6357162.415</gnm:Cell>
+        <gnm:Cell Row="122" Col="3" ExprID="1"/>
+        <gnm:Cell Row="123" Col="0" ValueType="60">MN_County-Traverse</gnm:Cell>
+        <gnm:Cell Row="123" Col="1" ValueType="40">6378463.7460000003</gnm:Cell>
+        <gnm:Cell Row="123" Col="2" ValueType="40">6357077.9639999997</gnm:Cell>
+        <gnm:Cell Row="123" Col="3" ExprID="1"/>
+        <gnm:Cell Row="124" Col="0" ValueType="60">MN_County-Wabasha</gnm:Cell>
+        <gnm:Cell Row="124" Col="1" ValueType="40">6378426.5609999998</gnm:Cell>
+        <gnm:Cell Row="124" Col="2" ValueType="40">6357040.9040000001</gnm:Cell>
+        <gnm:Cell Row="124" Col="3" ExprID="1"/>
+        <gnm:Cell Row="125" Col="0" ValueType="60">MN_County-Wadena</gnm:Cell>
+        <gnm:Cell Row="125" Col="1" ValueType="40">6378546.9570000004</gnm:Cell>
+        <gnm:Cell Row="125" Col="2" ValueType="40">6357160.8959999997</gnm:Cell>
+        <gnm:Cell Row="125" Col="3" ExprID="1"/>
+        <gnm:Cell Row="126" Col="0" ValueType="60">MN_County-Waseca</gnm:Cell>
+        <gnm:Cell Row="126" Col="1" ValueType="40">6378481.4249999998</gnm:Cell>
+        <gnm:Cell Row="126" Col="2" ValueType="40">6357095.5839999998</gnm:Cell>
+        <gnm:Cell Row="126" Col="3" ExprID="1"/>
+        <gnm:Cell Row="127" Col="0" ValueType="60">MN_County-Watonwan</gnm:Cell>
+        <gnm:Cell Row="127" Col="1" ValueType="40">6378514.9529999997</gnm:Cell>
+        <gnm:Cell Row="127" Col="2" ValueType="40">6357129</gnm:Cell>
+        <gnm:Cell Row="127" Col="3" ExprID="1"/>
+        <gnm:Cell Row="128" Col="0" ValueType="60">MN_County-Winona</gnm:Cell>
+        <gnm:Cell Row="128" Col="1" ValueType="40">6378453.6880000001</gnm:Cell>
+        <gnm:Cell Row="128" Col="2" ValueType="40">6357067.9400000004</gnm:Cell>
+        <gnm:Cell Row="128" Col="3" ExprID="1"/>
+        <gnm:Cell Row="129" Col="0" ValueType="60">MN_County-Wright</gnm:Cell>
+        <gnm:Cell Row="129" Col="1" ValueType="40">6378443.3250000002</gnm:Cell>
+        <gnm:Cell Row="129" Col="2" ValueType="40">6357057.6119999997</gnm:Cell>
+        <gnm:Cell Row="129" Col="3" ExprID="1"/>
+        <gnm:Cell Row="130" Col="0" ValueType="60">MN_County-Yellow_Medicine</gnm:Cell>
+        <gnm:Cell Row="130" Col="1" ValueType="40">6378530.193</gnm:Cell>
+        <gnm:Cell Row="130" Col="2" ValueType="40">6357144.1890000002</gnm:Cell>
+        <gnm:Cell Row="130" Col="3" ExprID="1"/>
+        <gnm:Cell Row="131" Col="0" ValueType="60">Mercury_1960</gnm:Cell>
+        <gnm:Cell Row="131" Col="1" ValueType="40">6378166</gnm:Cell>
+        <gnm:Cell Row="131" Col="2" ValueType="40">6356784.284</gnm:Cell>
+        <gnm:Cell Row="131" Col="3" ExprID="1"/>
+        <gnm:Cell Row="132" Col="0" ValueType="60">Modified_Airy</gnm:Cell>
+        <gnm:Cell Row="132" Col="1" ValueType="40">6377340.1890000002</gnm:Cell>
+        <gnm:Cell Row="132" Col="2" ValueType="40">6356034.4479390001</gnm:Cell>
+        <gnm:Cell Row="132" Col="3" ExprID="1"/>
+        <gnm:Cell Row="133" Col="0" ValueType="60">Modified_Everest</gnm:Cell>
+        <gnm:Cell Row="133" Col="1" ValueType="40">6377304.0630000001</gnm:Cell>
+        <gnm:Cell Row="133" Col="2" ValueType="40">6356103.0389930001</gnm:Cell>
+        <gnm:Cell Row="133" Col="3" ExprID="1"/>
+        <gnm:Cell Row="134" Col="0" ValueType="60">Modified_Fischer_1960</gnm:Cell>
+        <gnm:Cell Row="134" Col="1" ValueType="40">6378155</gnm:Cell>
+        <gnm:Cell Row="134" Col="2" ValueType="40">6356773.320483</gnm:Cell>
+        <gnm:Cell Row="134" Col="3" ExprID="1"/>
+        <gnm:Cell Row="135" Col="0" ValueType="60">Modified_Mercury_1968</gnm:Cell>
+        <gnm:Cell Row="135" Col="1" ValueType="40">6378150</gnm:Cell>
+        <gnm:Cell Row="135" Col="2" ValueType="40">6356768.3370000003</gnm:Cell>
+        <gnm:Cell Row="135" Col="3" ExprID="1"/>
+        <gnm:Cell Row="137" Col="0" ValueType="60">South_American_1969</gnm:Cell>
+        <gnm:Cell Row="137" Col="1" ValueType="40">6378160</gnm:Cell>
+        <gnm:Cell Row="137" Col="2" ValueType="40">6356774.7191949999</gnm:Cell>
+        <gnm:Cell Row="137" Col="3" ExprID="1"/>
+        <gnm:Cell Row="138" Col="0" ValueType="60">Southeast_Asia</gnm:Cell>
+        <gnm:Cell Row="138" Col="1" ValueType="40">6378155</gnm:Cell>
+        <gnm:Cell Row="138" Col="2" ValueType="40">6356773.3210000005</gnm:Cell>
+        <gnm:Cell Row="138" Col="3" ExprID="1"/>
+        <gnm:Cell Row="139" Col="0" ValueType="60">Sphere_Radius_6356752m</gnm:Cell>
+        <gnm:Cell Row="139" Col="1" ValueType="40">6356752.3140000002</gnm:Cell>
+        <gnm:Cell Row="139" Col="2" ValueType="40">6356752.3140000002</gnm:Cell>
+        <gnm:Cell Row="139" Col="3" ExprID="1"/>
+        <gnm:Cell Row="140" Col="0" ValueType="60">Sphere_Radius_6370997m</gnm:Cell>
+        <gnm:Cell Row="140" Col="1" ValueType="40">6370997</gnm:Cell>
+        <gnm:Cell Row="140" Col="2" ValueType="40">6370997</gnm:Cell>
+        <gnm:Cell Row="140" Col="3" ExprID="1"/>
+        <gnm:Cell Row="141" Col="0" ValueType="60">Sphere_Radius_6371000m</gnm:Cell>
+        <gnm:Cell Row="141" Col="1" ValueType="40">6371000</gnm:Cell>
+        <gnm:Cell Row="141" Col="2" ValueType="40">6371000</gnm:Cell>
+        <gnm:Cell Row="141" Col="3" ExprID="1"/>
+        <gnm:Cell Row="142" Col="0" ValueType="60">Sphere_Radius_6371007.181m</gnm:Cell>
+        <gnm:Cell Row="142" Col="1" ValueType="40">6371007.1809999999</gnm:Cell>
+        <gnm:Cell Row="142" Col="2" ValueType="40">6371007.1809999999</gnm:Cell>
+        <gnm:Cell Row="142" Col="3" ExprID="1"/>
+        <gnm:Cell Row="143" Col="0" ValueType="60">Sphere_Radius_6371204m</gnm:Cell>
+        <gnm:Cell Row="143" Col="1" ValueType="40">6371204</gnm:Cell>
+        <gnm:Cell Row="143" Col="2" ValueType="40">6371204</gnm:Cell>
+        <gnm:Cell Row="143" Col="3" ExprID="1"/>
+        <gnm:Cell Row="144" Col="0" ValueType="60">Sphere_Radius_6378137m</gnm:Cell>
+        <gnm:Cell Row="144" Col="1" ValueType="40">6378137</gnm:Cell>
+        <gnm:Cell Row="144" Col="2" ValueType="40">6378137</gnm:Cell>
+        <gnm:Cell Row="144" Col="3" ExprID="1"/>
+        <gnm:Cell Row="145" Col="0" ValueType="60">Sphere_Radius_6378388m</gnm:Cell>
+        <gnm:Cell Row="145" Col="1" ValueType="40">6378388</gnm:Cell>
+        <gnm:Cell Row="145" Col="2" ValueType="40">6378388</gnm:Cell>
+        <gnm:Cell Row="145" Col="3" ExprID="1"/>
+        <gnm:Cell Row="147" Col="0" ValueType="60">Topex_Poseidon_Pathfinder_ITRF</gnm:Cell>
+        <gnm:Cell Row="147" Col="1" ValueType="40">6378136.2999999998</gnm:Cell>
+        <gnm:Cell Row="147" Col="2" ValueType="40">6356751.6005629376</gnm:Cell>
+        <gnm:Cell Row="147" Col="3" ExprID="1"/>
+        <gnm:Cell Row="149" Col="0" ValueType="60">WGS_60</gnm:Cell>
+        <gnm:Cell Row="149" Col="1" ValueType="40">6378165</gnm:Cell>
+        <gnm:Cell Row="149" Col="2" ValueType="40">6356783.2869589999</gnm:Cell>
+        <gnm:Cell Row="149" Col="3" ExprID="1"/>
+        <gnm:Cell Row="150" Col="0" ValueType="60">WGS_66</gnm:Cell>
+        <gnm:Cell Row="150" Col="1" ValueType="40">6378145</gnm:Cell>
+        <gnm:Cell Row="150" Col="2" ValueType="40">6356759.7694889996</gnm:Cell>
+        <gnm:Cell Row="150" Col="3" ExprID="1"/>
+        <gnm:Cell Row="151" Col="0" ValueType="60">WGS_72</gnm:Cell>
+        <gnm:Cell Row="151" Col="1" ValueType="40">6378135</gnm:Cell>
+        <gnm:Cell Row="151" Col="2" ValueType="40">6356750.5200159997</gnm:Cell>
+        <gnm:Cell Row="151" Col="3" ExprID="1"/>
+        <gnm:Cell Row="152" Col="0" ValueType="60">WGS_84</gnm:Cell>
+        <gnm:Cell Row="152" Col="1" ValueType="40">6378137</gnm:Cell>
+        <gnm:Cell Row="152" Col="2" ValueType="40">6356752.3142451793</gnm:Cell>
+        <gnm:Cell Row="152" Col="3" ExprID="1"/>
+        <gnm:Cell Row="153" Col="0" ValueType="60">WI_County-Burnett</gnm:Cell>
+        <gnm:Cell Row="153" Col="1" ValueType="40">6378414.96</gnm:Cell>
+        <gnm:Cell Row="153" Col="2" ValueType="40">6357030.2740000002</gnm:Cell>
+        <gnm:Cell Row="153" Col="3" ExprID="1"/>
+        <gnm:Cell Row="154" Col="0" ValueType="60">WI_County-Chippewa</gnm:Cell>
+        <gnm:Cell Row="154" Col="1" ValueType="40">6378412.5420000004</gnm:Cell>
+        <gnm:Cell Row="154" Col="2" ValueType="40">6357027.8559999997</gnm:Cell>
+        <gnm:Cell Row="154" Col="3" ExprID="1"/>
+        <gnm:Cell Row="155" Col="0" ValueType="60">WI_County-Douglas</gnm:Cell>
+        <gnm:Cell Row="155" Col="1" ValueType="40">6378414.9299999997</gnm:Cell>
+        <gnm:Cell Row="155" Col="2" ValueType="40">6357030.2439999999</gnm:Cell>
+        <gnm:Cell Row="155" Col="3" ExprID="1"/>
+        <gnm:Cell Row="156" Col="0" ValueType="60">WI_County-Marathon</gnm:Cell>
+        <gnm:Cell Row="156" Col="1" ValueType="40">6378500.5999999996</gnm:Cell>
+        <gnm:Cell Row="156" Col="2" ValueType="40">6357115.9139999999</gnm:Cell>
+        <gnm:Cell Row="156" Col="3" ExprID="1"/>
+        <gnm:Cell Row="157" Col="0" ValueType="60">WI_County-Sheboygan</gnm:Cell>
+        <gnm:Cell Row="157" Col="1" ValueType="40">6378285.4800000004</gnm:Cell>
+        <gnm:Cell Row="157" Col="2" ValueType="40">6356900.7939999998</gnm:Cell>
+        <gnm:Cell Row="157" Col="3" ExprID="1"/>
+        <gnm:Cell Row="158" Col="0" ValueType="60">WI_County-Taylor</gnm:Cell>
+        <gnm:Cell Row="158" Col="1" ValueType="40">6378532.9210000001</gnm:Cell>
+        <gnm:Cell Row="158" Col="2" ValueType="40">6357148.2350000003</gnm:Cell>
+        <gnm:Cell Row="158" Col="3" ExprID="1"/>
+        <gnm:Cell Row="159" Col="0" ValueType="60">War_Office-McCaw_1924</gnm:Cell>
+        <gnm:Cell Row="159" Col="1" ValueType="40">6378300</gnm:Cell>
+        <gnm:Cell Row="159" Col="2" ValueType="40">6356751.6890000002</gnm:Cell>
+        <gnm:Cell Row="159" Col="3" ExprID="1"/>
+        <gnm:Cell Row="161" Col="0" ValueType="60">Xian_1980</gnm:Cell>
+        <gnm:Cell Row="161" Col="1" ValueType="40">6378140</gnm:Cell>
+        <gnm:Cell Row="161" Col="2" ValueType="40">6356755.2879999997</gnm:Cell>
+        <gnm:Cell Row="161" Col="3" ExprID="1"/>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>
