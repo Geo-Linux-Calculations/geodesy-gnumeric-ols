@@ -12,15 +12,14 @@ Spreadsheets:
 * [conformaltrans] - conformal transformation: 1-5 power.
 * [dms] - DDMMSS to DD.DDDD transform.
 * [ellipsoid] - the Gauss-Krüger and other transformation.
+* [plane] - processing facade geodetic survey.
 * [tunnel] - tunnel tracking.
 * [xyh] - the solution of the problem of determining the station and orienting by measurements or the relative coordinates.
-* distance_to_plane.xml - processing facade geodetic survey.
-* ols-one-sys.xml - finding a plane for a set of points.
 * ols-orientir.xml - direct geodetic intersection (in azimuths).
 
 ---
 
-URL: https://github.com/Geo-Linux-Calculations/geodesy-gnumeric-ols
+URL: https://github.com/Geo-Linux-Calculations/gnumeric-ols
 
 --- 
 2022  
