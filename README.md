@@ -15,6 +15,7 @@ Spreadsheets:
 * [plane] - processing facade geodetic survey.
 * [tunnel] - tunnel tracking.
 * [xyh] - the solution of the problem of determining the station and orienting by measurements or the relative coordinates.
+* ols-fixed-points.xml - OLS with fixed points.
 * ols-orientir.xml - direct geodetic intersection (in azimuths).
 
 ---
@@ -22,5 +23,5 @@ Spreadsheets:
 URL: https://github.com/Geo-Linux-Calculations/gnumeric-ols
 
 --- 
-2022  
+2023  
 zvezdochiot

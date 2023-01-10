@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="48" Full="1.12.48"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2023-01-10T18:57:25Z</dc:date>
+      <meta:creation-date>2023-01-10T14:54:42Z</meta:creation-date>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">INFO</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">OLS</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="2560" Height="1144"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>INFO</gnm:Name>
+      <gnm:MaxCol>0</gnm:MaxCol>
+      <gnm:MaxRow>3</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;INFO&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="0" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="1" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="2" endCol="0" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="1" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:6666:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="4" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="0" endCol="255" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="735" HardSize="1"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="13.5"/>
+      <gnm:Selections CursorCol="0" CursorRow="0">
+        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">This table is the solution of the least squares series of points with fixed points.</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">INFO sheet - description </gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">OLS sheet - contains the series of values of  points and the OLS solution without fixed and with fixed points.</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>OLS</gnm:Name>
+      <gnm:MaxCol>13</gnm:MaxCol>
+      <gnm:MaxRow>91</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;OLS&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>iso_a4</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="0" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="255" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="2" endCol="10" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="4" endCol="10" endRow="4">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="5" endCol="255" endRow="5">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="6" endCol="0" endRow="6">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="7" endCol="255" endRow="7">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="8" endCol="0" endRow="8">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="9" endCol="255" endRow="9">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="10" endCol="10" endRow="11">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="12" endCol="10" endRow="12">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="13" endCol="255" endRow="13">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="14" endCol="0" endRow="14">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="15" endCol="0" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="16" endCol="0" endRow="16">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="17" endCol="0" endRow="19">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="20" endCol="0" endRow="20">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="21" endCol="255" endRow="21">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="22" endCol="3" endRow="22">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="23" endCol="3" endRow="23">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="24" endCol="255" endRow="24">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="25" endCol="10" endRow="25">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="26" endCol="10" endRow="26">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="27" endCol="10" endRow="27">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="28" endCol="255" endRow="28">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="29" endCol="0" endRow="29">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="30" endCol="255" endRow="30">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="31" endCol="0" endRow="39">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="40" endCol="255" endRow="40">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="41" endCol="2" endRow="41">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="42" endCol="1" endRow="44">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="45" endCol="1" endRow="45">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="46" endCol="255" endRow="46">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="47" endCol="0" endRow="47">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="48" endCol="0" endRow="48">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="49" endCol="0" endRow="49">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="50" endCol="0" endRow="52">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="53" endCol="0" endRow="53">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="54" endCol="255" endRow="54">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="55" endCol="2" endRow="56">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="57" endCol="2" endRow="57">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="58" endCol="255" endRow="58">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="59" endCol="10" endRow="63">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="64" endCol="10" endRow="64">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="65" endCol="255" endRow="65">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="66" endCol="10" endRow="66">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="67" endCol="10" endRow="67">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="68" endCol="255" endRow="68">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="69" endCol="0" endRow="69">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="70" endCol="0" endRow="70">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="71" endCol="0" endRow="71">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="72" endCol="0" endRow="74">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="75" endCol="0" endRow="75">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="76" endCol="255" endRow="76">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="77" endCol="1" endRow="77">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="78" endCol="1" endRow="78">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="79" endCol="255" endRow="79">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="80" endCol="10" endRow="80">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="81" endCol="255" endRow="82">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="83" endCol="3" endRow="86">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="87" endCol="3" endRow="87">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="88" endCol="255" endRow="88">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="89" endCol="10" endRow="89">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="90" endCol="10" endRow="90">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="91" endCol="10" endRow="91">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="92" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="0" endCol="255" endRow="0">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="6" endCol="255" endRow="6">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="8" endCol="255" endRow="8">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="14" endCol="2" endRow="14">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="15" endCol="2" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="16" endCol="2" endRow="16">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="17" endCol="2" endRow="19">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="20" endCol="2" endRow="20">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="29" endCol="255" endRow="29">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="31" endCol="255" endRow="39">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="47" endCol="1" endRow="47">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="48" endCol="1" endRow="48">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="49" endCol="1" endRow="49">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="50" endCol="1" endRow="52">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="53" endCol="1" endRow="53">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="69" endCol="1" endRow="69">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="70" endCol="1" endRow="70">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="71" endCol="1" endRow="71">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="72" endCol="1" endRow="74">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="75" endCol="1" endRow="75">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="42" endCol="2" endRow="44">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="45" endCol="2" endRow="45">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="47" endCol="255" endRow="53">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="69" endCol="2" endRow="69">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="70" endCol="2" endRow="70">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="71" endCol="2" endRow="71">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="72" endCol="2" endRow="74">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="75" endCol="2" endRow="75">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="77" endCol="2" endRow="77">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="78" endCol="2" endRow="78">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="14" endCol="3" endRow="14">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="15" endCol="3" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="16" endCol="3" endRow="16">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="17" endCol="3" endRow="19">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="20" endCol="3" endRow="20">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="41" endCol="255" endRow="45">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="55" endCol="3" endRow="56">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="57" endCol="3" endRow="57">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="69" endCol="255" endRow="75">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="77" endCol="255" endRow="78">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="14" endCol="255" endRow="20">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="22" endCol="4" endRow="22">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="23" endCol="4" endRow="23">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="55" endCol="4" endRow="57">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="83" endCol="4" endRow="86">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4" startRow="87" endCol="4" endRow="87">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="8080:0:8080" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="22" endCol="255" endRow="23">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="55" endCol="255" endRow="57">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="83" endCol="255" endRow="87">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="2" endCol="11" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="4" endCol="11" endRow="4">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="10" endCol="11" endRow="11">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="12" endCol="11" endRow="12">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="25" endCol="11" endRow="25">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="26" endCol="11" endRow="26">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="27" endCol="11" endRow="27">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="59" endCol="11" endRow="63">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="64" endCol="11" endRow="64">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="66" endCol="11" endRow="66">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="67" endCol="11" endRow="67">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="80" endCol="11" endRow="80">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="89" endCol="11" endRow="89">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="90" endCol="11" endRow="90">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:8080:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="91" endCol="11" endRow="91">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="2" endCol="255" endRow="4">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="10" endCol="255" endRow="12">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="25" endCol="12" endRow="27">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="59" endCol="255" endRow="64">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="66" endCol="255" endRow="67">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="80" endCol="255" endRow="80">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="12" startRow="89" endCol="12" endRow="91">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="13" startRow="25" endCol="13" endRow="25">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="13" startRow="26" endCol="13" endRow="26">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="13" startRow="27" endCol="13" endRow="27">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="13" startRow="89" endCol="13" endRow="89">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Top Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="13" startRow="90" endCol="13" endRow="90">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="13" startRow="91" endCol="13" endRow="91">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="FFFF:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+            <gnm:StyleBorder>
+              <gnm:Bottom Style="1" Color="0:0:0"/>
+              <gnm:Left Style="1" Color="0:0:0"/>
+              <gnm:Right Style="1" Color="0:0:0"/>
+            </gnm:StyleBorder>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="14" startRow="25" endCol="255" endRow="27">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="14" startRow="89" endCol="255" endRow="91">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="48" HardSize="1" Count="13"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="12.75">
+        <gnm:RowInfo No="0" Unit="13.5" Count="6"/>
+        <gnm:RowInfo No="10" Unit="13.5" Count="5"/>
+        <gnm:RowInfo No="22" Unit="13.5" Count="14"/>
+        <gnm:RowInfo No="38" Unit="13.5"/>
+        <gnm:RowInfo No="41" Unit="13.5" Count="8"/>
+        <gnm:RowInfo No="55" Unit="13.5" Count="13"/>
+        <gnm:RowInfo No="77" Unit="13.5" Count="14"/>
+      </gnm:Rows>
+      <gnm:Selections CursorCol="0" CursorRow="0">
+        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      </gnm:Selections>
+      <gnm:Objects>
+        <gnm:SheetObjectGraph ObjectBound="O3" AnchorMode="GNM_SO_ANCHOR_ONE_CELL" ObjectOffset="0.234 0.5 638 500" Direction="17" Print="1">
+          <GogObject type="GogGraph">
+            <property name="height-pts">500</property>
+            <property name="width-pts">638</property>
+            <property name="theme-name">Default</property>
+            <property name="padding-pts">7.086614173228346</property>
+            <property name="style" type="GogStyle">
+              <outline auto-dash="1" auto-width="1" auto-color="1"/>
+              <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+            </property>
+            <property name="anchor">top-left</property>
+            <property name="alignment">fill</property>
+            <GogObject role="Chart">
+              <property name="ypos">0</property>
+              <property name="padding-pts">7.086614173228346</property>
+              <property name="style" type="GogStyle">
+                <outline auto-dash="1" auto-width="1" auto-color="1"/>
+                <fill type="pattern" auto-type="1" is-auto="1" auto-fore="1">
+                  <pattern type="solid" fore="0:0:0:FF" back="FF:FF:FF:FF" auto-pattern="1"/>
+                </fill>
+              </property>
+              <property name="id">1</property>
+              <GogObject role="Grid">
+                <property name="style" type="GogStyle">
+                  <outline auto-dash="1" auto-width="1" auto-color="1"/>
+                  <fill type="pattern" auto-type="1" is-auto="1" auto-fore="1">
+                    <pattern type="solid" fore="0:0:0:FF" back="D0:D0:D0:FF" auto-pattern="1"/>
+                  </fill>
+                </property>
+                <property name="id">1</property>
+              </GogObject>
+              <GogObject role="X-Axis">
+                <property name="metrics-unit">none</property>
+                <property name="pos-str">low</property>
+                <property name="style" type="GogStyle">
+                  <line auto-dash="1" auto-width="1" auto-color="1"/>
+                  <font auto-color="1" auto-font="1" auto-scale="1"/>
+                  <text_layout/>
+                </property>
+                <property name="id">1</property>
+                <data/>
+                <GogObject role="MajorGrid">
+                  <property name="style" type="GogStyle">
+                    <line auto-dash="1" auto-width="1" auto-color="1"/>
+                    <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+                  </property>
+                  <property name="id">1</property>
+                </GogObject>
+              </GogObject>
+              <GogObject role="Y-Axis">
+                <property name="metrics-unit">none</property>
+                <property name="pos-str">low</property>
+                <property name="style" type="GogStyle">
+                  <line auto-dash="1" auto-width="1" auto-color="1"/>
+                  <font auto-color="1" auto-font="1" auto-scale="1"/>
+                  <text_layout/>
+                </property>
+                <property name="id">1</property>
+                <data/>
+                <GogObject role="MajorGrid">
+                  <property name="style" type="GogStyle">
+                    <line auto-dash="1" auto-width="1" auto-color="1"/>
+                    <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+                  </property>
+                  <property name="id">1</property>
+                </GogObject>
+              </GogObject>
+              <GogObject role="Plot" type="GogXYPlot">
+                <property name="default-style-has-fill">FALSE</property>
+                <property name="default-style-has-lines">FALSE</property>
+                <property name="y-axis">1</property>
+                <property name="x-axis">1</property>
+                <property name="vary-style-by-element">FALSE</property>
+                <property name="id">1</property>
+                <GogObject role="Series">
+                  <property name="fill-type">y-origin</property>
+                  <property name="interpolation">linear</property>
+                  <property name="style" type="GogStyle">
+                    <line auto-dash="1" auto-width="1" auto-color="1"/>
+                    <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+                    <marker auto-shape="1" auto-outline="1" auto-fill="1" size="5"/>
+                  </property>
+                  <property name="id">1</property>
+                  <data>
+                    <dimension id="-1" type="GnmGODataScalar">OLS!$A$5</dimension>
+                    <dimension id="0" type="GnmGODataVector">OLS!$B$4:$L$4</dimension>
+                    <dimension id="1" type="GnmGODataVector">OLS!$B$5:$L$5</dimension>
+                  </data>
+                </GogObject>
+                <GogObject role="Series">
+                  <property name="fill-type">y-origin</property>
+                  <property name="interpolation">spline</property>
+                  <property name="style" type="GogStyle">
+                    <line auto-dash="0" dash="solid" auto-width="1" auto-color="1"/>
+                    <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+                    <marker auto-shape="0" shape="none" auto-outline="1" auto-fill="1" size="5"/>
+                  </property>
+                  <property name="id">2</property>
+                  <data>
+                    <dimension id="-1" type="GnmGODataScalar">OLS!$A$27</dimension>
+                    <dimension id="0" type="GnmGODataVector">OLS!$B$4:$L$4</dimension>
+                    <dimension id="1" type="GnmGODataVector">OLS!$B$27:$L$27</dimension>
+                  </data>
+                </GogObject>
+                <GogObject role="Series">
+                  <property name="fill-type">y-origin</property>
+                  <property name="interpolation">linear</property>
+                  <property name="style" type="GogStyle">
+                    <line auto-dash="1" auto-width="1" auto-color="0" color="FF:0:0:FF"/>
+                    <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+                    <marker auto-shape="0" shape="circle" auto-outline="0" outline-color="FF:0:0:FF" auto-fill="0" fill-color="FF:0:0:FF" size="10"/>
+                  </property>
+                  <property name="id">3</property>
+                  <data>
+                    <dimension id="-1" type="GnmGODataScalar">OLS!$A$45</dimension>
+                    <dimension id="0" type="GnmGODataVector">OLS!$B$44:$C$44</dimension>
+                    <dimension id="1" type="GnmGODataVector">OLS!$B$45:$C$45</dimension>
+                  </data>
+                </GogObject>
+                <GogObject role="Series">
+                  <property name="fill-type">y-origin</property>
+                  <property name="interpolation">spline</property>
+                  <property name="style" type="GogStyle">
+                    <line auto-dash="0" dash="solid" auto-width="1" auto-color="0" color="0:80:0:FF"/>
+                    <fill type="none" auto-type="1" is-auto="1" auto-fore="1"/>
+                    <marker auto-shape="0" shape="none" auto-outline="0" outline-color="0:80:0:FF" auto-fill="0" fill-color="0:80:0:FF" size="5"/>
+                  </property>
+                  <property name="id">4</property>
+                  <data>
+                    <dimension id="-1" type="GnmGODataScalar">OLS!$A$91</dimension>
+                    <dimension id="0" type="GnmGODataVector">OLS!$B$4:$L$4</dimension>
+                    <dimension id="1" type="GnmGODataVector">OLS!$B$91:$L$91</dimension>
+                  </data>
+                </GogObject>
+              </GogObject>
+              <GogObject role="Legend">
+                <property name="swatch-padding-pts">5.669291338582677</property>
+                <property name="swatch-size-pts">7.086614173228346</property>
+                <property name="padding-pts">7.086614173228346</property>
+                <property name="style" type="GogStyle">
+                  <outline auto-dash="1" auto-width="1" auto-color="1"/>
+                  <fill type="pattern" auto-type="1" is-auto="1" auto-fore="1">
+                    <pattern type="solid" fore="0:0:0:FF" back="FF:FF:FF:FF" auto-pattern="1"/>
+                  </fill>
+                  <font auto-color="1" auto-font="1" auto-scale="1"/>
+                </property>
+                <property name="compass">bottom</property>
+                <property name="id">1</property>
+              </GogObject>
+            </GogObject>
+          </GogObject>
+        </gnm:SheetObjectGraph>
+      </gnm:Objects>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">Data:</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">i</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="2" Col="5" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="2" Col="6" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="2" Col="7" ValueType="40">7</gnm:Cell>
+        <gnm:Cell Row="2" Col="8" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="2" Col="9" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="2" Col="10" ValueType="40">10</gnm:Cell>
+        <gnm:Cell Row="2" Col="11" ValueType="40">11</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">xi</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="40">0.10000000000000001</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="40">0.20000000000000001</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="40">0.29999999999999999</gnm:Cell>
+        <gnm:Cell Row="3" Col="5" ValueType="40">0.40000000000000002</gnm:Cell>
+        <gnm:Cell Row="3" Col="6" ValueType="40">0.5</gnm:Cell>
+        <gnm:Cell Row="3" Col="7" ValueType="40">0.59999999999999998</gnm:Cell>
+        <gnm:Cell Row="3" Col="8" ValueType="40">0.69999999999999996</gnm:Cell>
+        <gnm:Cell Row="3" Col="9" ValueType="40">0.80000000000000004</gnm:Cell>
+        <gnm:Cell Row="3" Col="10" ValueType="40">0.90000000000000002</gnm:Cell>
+        <gnm:Cell Row="3" Col="11" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">yi</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="40">-0.20544479721331044</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="40">0.96154435546092643</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="40">1.1272349630336418</gnm:Cell>
+        <gnm:Cell Row="4" Col="4" ValueType="40">0.58634738720188606</gnm:Cell>
+        <gnm:Cell Row="4" Col="5" ValueType="40">0.7452575188085524</gnm:Cell>
+        <gnm:Cell Row="4" Col="6" ValueType="40">0.60282946119035108</gnm:Cell>
+        <gnm:Cell Row="4" Col="7" ValueType="40">0.43325586385359333</gnm:Cell>
+        <gnm:Cell Row="4" Col="8" ValueType="40">0.032304781997469778</gnm:Cell>
+        <gnm:Cell Row="4" Col="9" ValueType="40">-0.35634698978161</gnm:Cell>
+        <gnm:Cell Row="4" Col="10" ValueType="40">0.3175200349050572</gnm:Cell>
+        <gnm:Cell Row="4" Col="11" ValueType="40">0.72026648372905622</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="60">Non fixed points.</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="60">f3(x)=OLS(yi,xi,3,const)</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ExprID="1">=A4</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ExprID="1"/>
+        <gnm:Cell Row="10" Col="2" ExprID="1"/>
+        <gnm:Cell Row="10" Col="3" ExprID="1"/>
+        <gnm:Cell Row="10" Col="4" ExprID="1"/>
+        <gnm:Cell Row="10" Col="5" ExprID="1"/>
+        <gnm:Cell Row="10" Col="6" ExprID="1"/>
+        <gnm:Cell Row="10" Col="7" ExprID="1"/>
+        <gnm:Cell Row="10" Col="8" ExprID="1"/>
+        <gnm:Cell Row="10" Col="9" ExprID="1"/>
+        <gnm:Cell Row="10" Col="10" ExprID="1"/>
+        <gnm:Cell Row="10" Col="11" ExprID="1"/>
+        <gnm:Cell Row="11" Col="0" ValueType="60">xi^2</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ExprID="2">=B11*B$4</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ExprID="2"/>
+        <gnm:Cell Row="11" Col="3" ExprID="2"/>
+        <gnm:Cell Row="11" Col="4" ExprID="2"/>
+        <gnm:Cell Row="11" Col="5" ExprID="2"/>
+        <gnm:Cell Row="11" Col="6" ExprID="2"/>
+        <gnm:Cell Row="11" Col="7" ExprID="2"/>
+        <gnm:Cell Row="11" Col="8" ExprID="2"/>
+        <gnm:Cell Row="11" Col="9" ExprID="2"/>
+        <gnm:Cell Row="11" Col="10" ExprID="2"/>
+        <gnm:Cell Row="11" Col="11" ExprID="2"/>
+        <gnm:Cell Row="12" Col="0" ValueType="60">xi^3</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ExprID="2"/>
+        <gnm:Cell Row="12" Col="2" ExprID="2"/>
+        <gnm:Cell Row="12" Col="3" ExprID="2"/>
+        <gnm:Cell Row="12" Col="4" ExprID="2"/>
+        <gnm:Cell Row="12" Col="5" ExprID="2"/>
+        <gnm:Cell Row="12" Col="6" ExprID="2"/>
+        <gnm:Cell Row="12" Col="7" ExprID="2"/>
+        <gnm:Cell Row="12" Col="8" ExprID="2"/>
+        <gnm:Cell Row="12" Col="9" ExprID="2"/>
+        <gnm:Cell Row="12" Col="10" ExprID="2"/>
+        <gnm:Cell Row="12" Col="11" ExprID="2"/>
+        <gnm:Cell Row="14" Col="0" ValueType="60">OLS</gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="60">f3(x)</gnm:Cell>
+        <gnm:Cell Row="16" Col="0" Rows="5" Cols="4">=linest(B5:L5,B11:L13,1,1)</gnm:Cell>
+        <gnm:Cell Row="22" Col="0" ValueType="60">name</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="60">a0</gnm:Cell>
+        <gnm:Cell Row="22" Col="2" ValueType="60">a1</gnm:Cell>
+        <gnm:Cell Row="22" Col="3" ValueType="60">a2</gnm:Cell>
+        <gnm:Cell Row="22" Col="4" ValueType="60">a3</gnm:Cell>
+        <gnm:Cell Row="23" Col="0" ExprID="3">=A16</gnm:Cell>
+        <gnm:Cell Row="23" Col="1">=D17</gnm:Cell>
+        <gnm:Cell Row="23" Col="2" ExprID="1"/>
+        <gnm:Cell Row="23" Col="3" ExprID="4">=B17</gnm:Cell>
+        <gnm:Cell Row="23" Col="4">=A17</gnm:Cell>
+        <gnm:Cell Row="25" Col="0" ExprID="5">=A4</gnm:Cell>
+        <gnm:Cell Row="25" Col="1" ExprID="5"/>
+        <gnm:Cell Row="25" Col="2" ExprID="5"/>
+        <gnm:Cell Row="25" Col="3" ExprID="5"/>
+        <gnm:Cell Row="25" Col="4" ExprID="5"/>
+        <gnm:Cell Row="25" Col="5" ExprID="5"/>
+        <gnm:Cell Row="25" Col="6" ExprID="5"/>
+        <gnm:Cell Row="25" Col="7" ExprID="5"/>
+        <gnm:Cell Row="25" Col="8" ExprID="5"/>
+        <gnm:Cell Row="25" Col="9" ExprID="5"/>
+        <gnm:Cell Row="25" Col="10" ExprID="5"/>
+        <gnm:Cell Row="25" Col="11" ExprID="5"/>
+        <gnm:Cell Row="25" Col="13" ValueType="60">stdev</gnm:Cell>
+        <gnm:Cell Row="26" Col="0">=A16</gnm:Cell>
+        <gnm:Cell Row="26" Col="1" ExprID="6">=$B24+$C24*B4+$D24*B4^2+$E24*B4^3</gnm:Cell>
+        <gnm:Cell Row="26" Col="2" ExprID="6"/>
+        <gnm:Cell Row="26" Col="3" ExprID="6"/>
+        <gnm:Cell Row="26" Col="4" ExprID="6"/>
+        <gnm:Cell Row="26" Col="5" ExprID="6"/>
+        <gnm:Cell Row="26" Col="6" ExprID="6"/>
+        <gnm:Cell Row="26" Col="7" ExprID="6"/>
+        <gnm:Cell Row="26" Col="8" ExprID="6"/>
+        <gnm:Cell Row="26" Col="9" ExprID="6"/>
+        <gnm:Cell Row="26" Col="10" ExprID="6"/>
+        <gnm:Cell Row="26" Col="11" ExprID="6"/>
+        <gnm:Cell Row="26" Col="13" ValueType="60">f3(x)</gnm:Cell>
+        <gnm:Cell Row="27" Col="0" ValueType="60">yi-f3(xi)</gnm:Cell>
+        <gnm:Cell Row="27" Col="1" ExprID="7">=B5-B27</gnm:Cell>
+        <gnm:Cell Row="27" Col="2" ExprID="7"/>
+        <gnm:Cell Row="27" Col="3" ExprID="7"/>
+        <gnm:Cell Row="27" Col="4" ExprID="7"/>
+        <gnm:Cell Row="27" Col="5" ExprID="7"/>
+        <gnm:Cell Row="27" Col="6" ExprID="7"/>
+        <gnm:Cell Row="27" Col="7" ExprID="7"/>
+        <gnm:Cell Row="27" Col="8" ExprID="7"/>
+        <gnm:Cell Row="27" Col="9" ExprID="7"/>
+        <gnm:Cell Row="27" Col="10" ExprID="7"/>
+        <gnm:Cell Row="27" Col="11" ExprID="7"/>
+        <gnm:Cell Row="27" Col="13" ExprID="8">=sqrt(2*sumproduct(B28:L28,B28:L28)/count(B28:L28))</gnm:Cell>
+        <gnm:Cell Row="29" Col="0" ValueType="60">Fixed 2 points.</gnm:Cell>
+        <gnm:Cell Row="31" Col="0" ValueType="60">p3(x)=q1(x)*z2(xf,x) + L1(x)</gnm:Cell>
+        <gnm:Cell Row="33" Col="0" ValueType="60">L1(x)=interp(yf,xf)</gnm:Cell>
+        <gnm:Cell Row="34" Col="0" ValueType="60">z2(x,xf)=P{x-xf}</gnm:Cell>
+        <gnm:Cell Row="35" Col="0" ValueType="60">wi=z2(xi,xf)^2</gnm:Cell>
+        <gnm:Cell Row="36" Col="0" ValueType="60">sqwi=sqrt(wi)=z2(xi,xf)</gnm:Cell>
+        <gnm:Cell Row="37" Col="0" ValueType="60">sqwxi=sqwi*xi=z2(xi,xf)*xi</gnm:Cell>
+        <gnm:Cell Row="38" Col="0" ValueType="60">ti=(yi-L1(x))/z2(xi,xf)*sqwi=(yi-L1(x))</gnm:Cell>
+        <gnm:Cell Row="39" Col="0" ValueType="60">q1(x)=OLS(ti,{sqwxi,sqwi},1,0)</gnm:Cell>
+        <gnm:Cell Row="41" Col="0" ValueType="60">fixed points</gnm:Cell>
+        <gnm:Cell Row="42" Col="0" ValueType="60">n</gnm:Cell>
+        <gnm:Cell Row="42" Col="1" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="42" Col="2" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="43" Col="0" ValueType="60">xf</gnm:Cell>
+        <gnm:Cell Row="43" Col="1" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="43" Col="2" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="44" Col="0" ValueType="60">yf</gnm:Cell>
+        <gnm:Cell Row="44" Col="1" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="44" Col="2" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="45" Col="0" ValueType="60">x0</gnm:Cell>
+        <gnm:Cell Row="45" Col="1" ExprID="9">=-B44</gnm:Cell>
+        <gnm:Cell Row="45" Col="2" ExprID="9"/>
+        <gnm:Cell Row="47" Col="0" ValueType="60">Interp</gnm:Cell>
+        <gnm:Cell Row="48" Col="0" ValueType="60">L1(x)</gnm:Cell>
+        <gnm:Cell Row="49" Col="0" Rows="5" Cols="2">=linest(B45:C45,B44:C44,1,1)</gnm:Cell>
+        <gnm:Cell Row="55" Col="0" ValueType="60">name</gnm:Cell>
+        <gnm:Cell Row="55" Col="1" ValueType="60">a0</gnm:Cell>
+        <gnm:Cell Row="55" Col="2" ValueType="60">a1</gnm:Cell>
+        <gnm:Cell Row="55" Col="3" ValueType="60">a2</gnm:Cell>
+        <gnm:Cell Row="56" Col="0" ExprID="3"/>
+        <gnm:Cell Row="56" Col="1" ExprID="1"/>
+        <gnm:Cell Row="56" Col="2" ExprID="4"/>
+        <gnm:Cell Row="56" Col="4" ValueType="60">expand</gnm:Cell>
+        <gnm:Cell Row="57" Col="0" ValueType="60">z2(x,xf)</gnm:Cell>
+        <gnm:Cell Row="57" Col="1">=product(B46:C46)</gnm:Cell>
+        <gnm:Cell Row="57" Col="2">=sum(B46:C46)</gnm:Cell>
+        <gnm:Cell Row="57" Col="3" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="57" Col="4" ValueType="60">(P{x-xf})</gnm:Cell>
+        <gnm:Cell Row="59" Col="0" ExprID="10">=A4</gnm:Cell>
+        <gnm:Cell Row="59" Col="1" ExprID="10"/>
+        <gnm:Cell Row="59" Col="2" ExprID="10"/>
+        <gnm:Cell Row="59" Col="3" ExprID="10"/>
+        <gnm:Cell Row="59" Col="4" ExprID="10"/>
+        <gnm:Cell Row="59" Col="5" ExprID="10"/>
+        <gnm:Cell Row="59" Col="6" ExprID="10"/>
+        <gnm:Cell Row="59" Col="7" ExprID="10"/>
+        <gnm:Cell Row="59" Col="8" ExprID="10"/>
+        <gnm:Cell Row="59" Col="9" ExprID="10"/>
+        <gnm:Cell Row="59" Col="10" ExprID="10"/>
+        <gnm:Cell Row="59" Col="11" ExprID="10"/>
+        <gnm:Cell Row="60" Col="0">=A49</gnm:Cell>
+        <gnm:Cell Row="60" Col="1" ExprID="11">=$B57+$C57*B4</gnm:Cell>
+        <gnm:Cell Row="60" Col="2" ExprID="11"/>
+        <gnm:Cell Row="60" Col="3" ExprID="11"/>
+        <gnm:Cell Row="60" Col="4" ExprID="11"/>
+        <gnm:Cell Row="60" Col="5" ExprID="11"/>
+        <gnm:Cell Row="60" Col="6" ExprID="11"/>
+        <gnm:Cell Row="60" Col="7" ExprID="11"/>
+        <gnm:Cell Row="60" Col="8" ExprID="11"/>
+        <gnm:Cell Row="60" Col="9" ExprID="11"/>
+        <gnm:Cell Row="60" Col="10" ExprID="11"/>
+        <gnm:Cell Row="60" Col="11" ExprID="11"/>
+        <gnm:Cell Row="61" Col="0">=A58</gnm:Cell>
+        <gnm:Cell Row="61" Col="1" ExprID="12">=$B58+$C58*B4+$D58*B4^2</gnm:Cell>
+        <gnm:Cell Row="61" Col="2" ExprID="12"/>
+        <gnm:Cell Row="61" Col="3" ExprID="12"/>
+        <gnm:Cell Row="61" Col="4" ExprID="12"/>
+        <gnm:Cell Row="61" Col="5" ExprID="12"/>
+        <gnm:Cell Row="61" Col="6" ExprID="12"/>
+        <gnm:Cell Row="61" Col="7" ExprID="12"/>
+        <gnm:Cell Row="61" Col="8" ExprID="12"/>
+        <gnm:Cell Row="61" Col="9" ExprID="12"/>
+        <gnm:Cell Row="61" Col="10" ExprID="12"/>
+        <gnm:Cell Row="61" Col="11" ExprID="12"/>
+        <gnm:Cell Row="62" Col="0" ValueType="60">wi</gnm:Cell>
+        <gnm:Cell Row="62" Col="1" ExprID="13">=B62*B62</gnm:Cell>
+        <gnm:Cell Row="62" Col="2" ExprID="13"/>
+        <gnm:Cell Row="62" Col="3" ExprID="13"/>
+        <gnm:Cell Row="62" Col="4" ExprID="13"/>
+        <gnm:Cell Row="62" Col="5" ExprID="13"/>
+        <gnm:Cell Row="62" Col="6" ExprID="13"/>
+        <gnm:Cell Row="62" Col="7" ExprID="13"/>
+        <gnm:Cell Row="62" Col="8" ExprID="13"/>
+        <gnm:Cell Row="62" Col="9" ExprID="13"/>
+        <gnm:Cell Row="62" Col="10" ExprID="13"/>
+        <gnm:Cell Row="62" Col="11" ExprID="13"/>
+        <gnm:Cell Row="63" Col="0" ValueType="60">sqwi</gnm:Cell>
+        <gnm:Cell Row="63" Col="1" ExprID="14">=B62</gnm:Cell>
+        <gnm:Cell Row="63" Col="2" ExprID="14"/>
+        <gnm:Cell Row="63" Col="3" ExprID="14"/>
+        <gnm:Cell Row="63" Col="4" ExprID="14"/>
+        <gnm:Cell Row="63" Col="5" ExprID="14"/>
+        <gnm:Cell Row="63" Col="6" ExprID="14"/>
+        <gnm:Cell Row="63" Col="7" ExprID="14"/>
+        <gnm:Cell Row="63" Col="8" ExprID="14"/>
+        <gnm:Cell Row="63" Col="9" ExprID="14"/>
+        <gnm:Cell Row="63" Col="10" ExprID="14"/>
+        <gnm:Cell Row="63" Col="11" ExprID="14"/>
+        <gnm:Cell Row="64" Col="0" ValueType="60">ti</gnm:Cell>
+        <gnm:Cell Row="64" Col="1" ExprID="15">=B5-B61</gnm:Cell>
+        <gnm:Cell Row="64" Col="2" ExprID="15"/>
+        <gnm:Cell Row="64" Col="3" ExprID="15"/>
+        <gnm:Cell Row="64" Col="4" ExprID="15"/>
+        <gnm:Cell Row="64" Col="5" ExprID="15"/>
+        <gnm:Cell Row="64" Col="6" ExprID="15"/>
+        <gnm:Cell Row="64" Col="7" ExprID="15"/>
+        <gnm:Cell Row="64" Col="8" ExprID="15"/>
+        <gnm:Cell Row="64" Col="9" ExprID="15"/>
+        <gnm:Cell Row="64" Col="10" ExprID="15"/>
+        <gnm:Cell Row="64" Col="11" ExprID="15"/>
+        <gnm:Cell Row="66" Col="0" ExprID="16">=A64</gnm:Cell>
+        <gnm:Cell Row="66" Col="1" ExprID="16"/>
+        <gnm:Cell Row="66" Col="2" ExprID="16"/>
+        <gnm:Cell Row="66" Col="3" ExprID="16"/>
+        <gnm:Cell Row="66" Col="4" ExprID="16"/>
+        <gnm:Cell Row="66" Col="5" ExprID="16"/>
+        <gnm:Cell Row="66" Col="6" ExprID="16"/>
+        <gnm:Cell Row="66" Col="7" ExprID="16"/>
+        <gnm:Cell Row="66" Col="8" ExprID="16"/>
+        <gnm:Cell Row="66" Col="9" ExprID="16"/>
+        <gnm:Cell Row="66" Col="10" ExprID="16"/>
+        <gnm:Cell Row="66" Col="11" ExprID="16"/>
+        <gnm:Cell Row="67" Col="0" ValueType="60">sqwxi</gnm:Cell>
+        <gnm:Cell Row="67" Col="1" ExprID="17">=B60*B64</gnm:Cell>
+        <gnm:Cell Row="67" Col="2" ExprID="17"/>
+        <gnm:Cell Row="67" Col="3" ExprID="17"/>
+        <gnm:Cell Row="67" Col="4" ExprID="17"/>
+        <gnm:Cell Row="67" Col="5" ExprID="17"/>
+        <gnm:Cell Row="67" Col="6" ExprID="17"/>
+        <gnm:Cell Row="67" Col="7" ExprID="17"/>
+        <gnm:Cell Row="67" Col="8" ExprID="17"/>
+        <gnm:Cell Row="67" Col="9" ExprID="17"/>
+        <gnm:Cell Row="67" Col="10" ExprID="17"/>
+        <gnm:Cell Row="67" Col="11" ExprID="17"/>
+        <gnm:Cell Row="69" Col="0" ValueType="60">OLS</gnm:Cell>
+        <gnm:Cell Row="70" Col="0" ValueType="60">q1(x)</gnm:Cell>
+        <gnm:Cell Row="71" Col="0" Rows="5" Cols="3">=linest(B65:L65,B67:L68,0,1)</gnm:Cell>
+        <gnm:Cell Row="77" Col="0" ValueType="60">name</gnm:Cell>
+        <gnm:Cell Row="77" Col="1" ValueType="60">a0</gnm:Cell>
+        <gnm:Cell Row="77" Col="2" ValueType="60">a1</gnm:Cell>
+        <gnm:Cell Row="78" Col="0" ExprID="3"/>
+        <gnm:Cell Row="78" Col="1" ExprID="1"/>
+        <gnm:Cell Row="78" Col="2" ExprID="4"/>
+        <gnm:Cell Row="80" Col="0">=A71</gnm:Cell>
+        <gnm:Cell Row="80" Col="1" ExprID="18">=$B79+$C79*B4</gnm:Cell>
+        <gnm:Cell Row="80" Col="2" ExprID="18"/>
+        <gnm:Cell Row="80" Col="3" ExprID="18"/>
+        <gnm:Cell Row="80" Col="4" ExprID="18"/>
+        <gnm:Cell Row="80" Col="5" ExprID="18"/>
+        <gnm:Cell Row="80" Col="6" ExprID="18"/>
+        <gnm:Cell Row="80" Col="7" ExprID="18"/>
+        <gnm:Cell Row="80" Col="8" ExprID="18"/>
+        <gnm:Cell Row="80" Col="9" ExprID="18"/>
+        <gnm:Cell Row="80" Col="10" ExprID="18"/>
+        <gnm:Cell Row="80" Col="11" ExprID="18"/>
+        <gnm:Cell Row="82" Col="0" ValueType="60">Combine: p3(x)=q1(x)*z2(xf,x) + L1(x):</gnm:Cell>
+        <gnm:Cell Row="83" Col="0" ValueType="60">name</gnm:Cell>
+        <gnm:Cell Row="83" Col="1" ValueType="60">a0</gnm:Cell>
+        <gnm:Cell Row="83" Col="2" ValueType="60">a1</gnm:Cell>
+        <gnm:Cell Row="83" Col="3" ValueType="60">a2</gnm:Cell>
+        <gnm:Cell Row="83" Col="4" ValueType="60">a3</gnm:Cell>
+        <gnm:Cell Row="84" Col="0" ExprID="19">=A79</gnm:Cell>
+        <gnm:Cell Row="84" Col="1" ExprID="19"/>
+        <gnm:Cell Row="84" Col="2" ExprID="19"/>
+        <gnm:Cell Row="85" Col="0" ExprID="20">=A58</gnm:Cell>
+        <gnm:Cell Row="85" Col="1" ExprID="20"/>
+        <gnm:Cell Row="85" Col="2" ExprID="20"/>
+        <gnm:Cell Row="85" Col="3" ExprID="20"/>
+        <gnm:Cell Row="86" Col="0" ExprID="21">=A57</gnm:Cell>
+        <gnm:Cell Row="86" Col="1">=B50</gnm:Cell>
+        <gnm:Cell Row="86" Col="2">=A50</gnm:Cell>
+        <gnm:Cell Row="87" Col="0" ValueType="60">p3(x)</gnm:Cell>
+        <gnm:Cell Row="87" Col="1">=B85*B86+B87</gnm:Cell>
+        <gnm:Cell Row="87" Col="2">=B85*C86+C85*B86+C87</gnm:Cell>
+        <gnm:Cell Row="87" Col="3">=C85*C86+D86*B85</gnm:Cell>
+        <gnm:Cell Row="87" Col="4">=C85*D86</gnm:Cell>
+        <gnm:Cell Row="89" Col="0" ExprID="21"/>
+        <gnm:Cell Row="89" Col="1" ExprID="21"/>
+        <gnm:Cell Row="89" Col="2" ExprID="21"/>
+        <gnm:Cell Row="89" Col="3" ExprID="21"/>
+        <gnm:Cell Row="89" Col="4" ExprID="21"/>
+        <gnm:Cell Row="89" Col="5" ExprID="21"/>
+        <gnm:Cell Row="89" Col="6" ExprID="21"/>
+        <gnm:Cell Row="89" Col="7" ExprID="21"/>
+        <gnm:Cell Row="89" Col="8" ExprID="21"/>
+        <gnm:Cell Row="89" Col="9" ExprID="21"/>
+        <gnm:Cell Row="89" Col="10" ExprID="21"/>
+        <gnm:Cell Row="89" Col="11" ExprID="21"/>
+        <gnm:Cell Row="89" Col="13" ValueType="60">stdev</gnm:Cell>
+        <gnm:Cell Row="90" Col="0" ExprID="16"/>
+        <gnm:Cell Row="90" Col="1" ExprID="22">=$B88+$C88*B4+$D88*B4^2+$E88*B4^3</gnm:Cell>
+        <gnm:Cell Row="90" Col="2" ExprID="22"/>
+        <gnm:Cell Row="90" Col="3" ExprID="22"/>
+        <gnm:Cell Row="90" Col="4" ExprID="22"/>
+        <gnm:Cell Row="90" Col="5" ExprID="22"/>
+        <gnm:Cell Row="90" Col="6" ExprID="22"/>
+        <gnm:Cell Row="90" Col="7" ExprID="22"/>
+        <gnm:Cell Row="90" Col="8" ExprID="22"/>
+        <gnm:Cell Row="90" Col="9" ExprID="22"/>
+        <gnm:Cell Row="90" Col="10" ExprID="22"/>
+        <gnm:Cell Row="90" Col="11" ExprID="22"/>
+        <gnm:Cell Row="90" Col="13" ValueType="60">p3(x)</gnm:Cell>
+        <gnm:Cell Row="91" Col="0" ValueType="60">yi-p3(xi)</gnm:Cell>
+        <gnm:Cell Row="91" Col="1" ExprID="23">=B5-B91</gnm:Cell>
+        <gnm:Cell Row="91" Col="2" ExprID="23"/>
+        <gnm:Cell Row="91" Col="3" ExprID="23"/>
+        <gnm:Cell Row="91" Col="4" ExprID="23"/>
+        <gnm:Cell Row="91" Col="5" ExprID="23"/>
+        <gnm:Cell Row="91" Col="6" ExprID="23"/>
+        <gnm:Cell Row="91" Col="7" ExprID="23"/>
+        <gnm:Cell Row="91" Col="8" ExprID="23"/>
+        <gnm:Cell Row="91" Col="9" ExprID="23"/>
+        <gnm:Cell Row="91" Col="10" ExprID="23"/>
+        <gnm:Cell Row="91" Col="11" ExprID="23"/>
+        <gnm:Cell Row="91" Col="13" ExprID="8"/>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>
