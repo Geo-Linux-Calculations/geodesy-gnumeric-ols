@@ -9,7 +9,7 @@
 Spreadsheets:
 
 * [circle] - finding the center and radius of the circle or ellips.
-* [conformaltrans] - conformal transformation: 1-5 power.
+* [conformaltrans] - conformal transformation: 1-5 power + affinetrans + Helmert.
 * [dms] - DDMMSS to DD.DDDD transform.
 * [ellipsoid] - the Gauss-Krüger and other transformation.
 * [plane] - processing facade geodetic survey.
